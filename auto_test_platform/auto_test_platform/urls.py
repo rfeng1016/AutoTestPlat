@@ -20,5 +20,17 @@ from app_users import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('test/', views.test),
+
+    # 用户管理
+    path('index/', views.index),
+    path('accounts/login/', views.index),
+    path('logout/', views.logout),
+
+    # 项目管理
+
+    # 模块管理
+
+    # 用例管理
+
+    # 任务管理
 ]
